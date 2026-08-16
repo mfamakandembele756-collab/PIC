@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible"content="IE=edge">
+    <meta name="viewport"content="width=divice-width,initial-scale=1.0">
+    <title>KHALIFA</title>
+ <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+ <link rel="stylesheet"href="PIC.css">
+</head>
+<body>
+    <nav id="nav"class="nav">
+
+        <h1><span>K</span>HALIFA</h1>
+
+        <ul>
+<li id="label"onclick="mobile()"><i class="fas fa-bars"></i></li>       
+<li>Accueil</li>
+<a href="#recipies"><li>Recette</li></a>
+<a href="#newsletter"><li>Contact</li></a>
+<li>Menu</li>
+<button>s'inscrire</button>
+        </ul>
+    </nav>
+
+    <header>
+<div class="left">
+
+<h1>Mangez à votre faim au restaurant KHALIFA.</h1>
+<p class="description">
+Restaurant KHALIFA:Le goût autentique au coeur de libreville.
+poulet braisé,poisson grillé,Riz sauté et jus naturels.
+Service rapide,cadre propre et Accueil chaleureux.
+Votre pause déjeuner mérite KHALIFA.
+
+
+
+</p>
+
+<button>COMMENCER</button>
+</div>
+
+
+    <div class="right">
+
+
+        <img src="téléchargement.jpeg"alt="header photo">
+    </div>
+
+
+
+    </header>
+
+
+    <section class="presentation">
+<div class="left">
+
+
+    <img src="images.JPG"alt="PLAT">
+
+
+</div>
+
+
+
+<div class="right">
+
+    <p class="mini-title">à propos de nous</p>
+<h1>Que faisons-nous de spécial dans nos restaurants?</h1>
+<P class="description">
+    Des plats copieux,des saveurs d'Afrique,et un accueil comme à la maison.
+    voilà ce qui rend le Restaurant khalifa unique à Libreville.
+</P>
+
+</div>
+
+
+
+
+    </section>
+    
+
+
+
+
+    <section id="recipies">
+     <p class="mini-title">Nos recettes</p>    
+     <h2>Qui sont les plus populaires?</h2> 
+       <div class="cards">
+<div class="card">
+    <img src="images (34).jpeg"alt="recette">
+    <h3>TCHEP POULET</h3>
+    <div class="rating-stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+    </div>
+    <P class="price">1000f</P>
+</div>
+<div class="card">
+    <img src="images (35).jpeg"alt="recette">
+    <h3>TCHEP POISSON</h3>
+    <div class="rating-stars">
+        <i class="fas fa-star" ></i>
+        <i class="fas fa-star" ></i>
+        <i class="fas fa-star" ></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+    </div>
+    <P class="price">1500f</P>
+</div>
+<div class="card">
+    <img src="téléchargement (15).jpeg"alt="recette">
+    <h3>ATCHEKE</h3>
+    <div class="rating-stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star" ></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+
+    </div>
+    <P class="price">2000f</P>
+</div>
+<div class="card">
+    <img src="téléchargement (16).jpeg"alt="recette"> 
+    <h3>COUSCOUS POULET</h3>
+    <div class="rating-stars">
+
+        <i class="fas fa-star" ></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+    </div>
+    <P class="price">2500f</P>
+</div>
+       </div>
+    </section>
+
+<section id="newsletter">
+
+<h1>Inscrivez-vous à notre  newsletter</h1>
+
+<form>
+<input type="text"/>
+<button>S'abonner</button>
+</form>
+
+
+
+
+</section>
+<footer>
+<div class="column important">
+    <h3>Merci à vous!</h3>
+    <p>&copy;copyright Foody,2021|Tous droits réservés</p>
+</div>
+<div class="column">
+    <h3>Nos services</h3>
+    <p>Boutique</p>
+    <p>Restaurants</p>
+    <p>Livraison</p>
+</div>
+<div class="column">
+    <h3>Recrutement</h3>
+    <p>recrutement@foody.fr</p>
+    <p>postuler pour un emploi</p>
+    <p>Job étudiant</p>
+    </div>
+<div class="column">
+    <h3>Nos locaux</h3>
+    <p>paris</p>
+    <p>Marseille</p>
+    <p>Toulouse</p>
+</div>
+
+
+</footer>
+
+
+
+<script>
+function mobile(){
+    var x=document.getElementById('nav');
+    if(x.className==='nav'){
+      x.className =' responsive';
+    }else{
+x.className= 'nav';
+       
+    }
+}
+
+
+</script>
+
+</body>
+</html>
